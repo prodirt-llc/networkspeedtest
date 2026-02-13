@@ -282,7 +282,7 @@ Contributions are welcome! Please:
 
 ## License
 
-This project is Dual licensed under the AGPL v3 + Commercial Exception - see the [AGPL v3]([LICENSE](https://www.gnu.org/licenses/agpl-3.0.en.html)) file for details.
+This project is Dual licensed under the AGPL v3 + Commercial Exception - see the [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html) file for details.
 
 ## Acknowledgments
 
