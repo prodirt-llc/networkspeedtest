@@ -110,11 +110,6 @@ Output: `bin\Release\net6.0\win-x64\publish\NetworkSpeedTest.exe`
 New-NetFirewallRule -DisplayName "Network Speed Test Server" -Direction Inbound -Protocol TCP -LocalPort 5201 -Action Allow
 ```
 
-**Linux (iptables):**
-```bash
-sudo iptables -A INPUT -p tcp --dport 5201 -j ACCEPT
-```
-
 ## Interpreting Results
 
 ### Asymmetry Detection
@@ -287,7 +282,7 @@ Contributions are welcome! Please:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is Dual licensed under the AGPL v3 + Commercial Exception - see the [AGPL v3]([LICENSE](https://www.gnu.org/licenses/agpl-3.0.en.html)) file for details.
 
 ## Acknowledgments
 
