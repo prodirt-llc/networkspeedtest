@@ -50,8 +50,8 @@ Please contact us for a **Commercial License**.
 - **Source Code License:** Contact for pricing
 
 **Contact for Commercial Licensing:**
-- Email: [your-email@example.com]
-- Website: [your-website.com]
+- Email: [prodirt.co@gmail.com]
+- Website: [https://prodirt-llc.github.io/]
 
 ---
 
@@ -101,7 +101,7 @@ By contributing to this project, you agree that your contributions will be licen
 
 ## Copyright
 
-Copyright (c) 2026 [Your Name / Your Company]
+Copyright (c) 2026 [ProDirt LLC]
 
 All rights reserved for commercial licensing.
 Free use granted under AGPL v3 as described above.
