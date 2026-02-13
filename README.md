@@ -8,6 +8,11 @@ A professional WPF-based network diagnostic tool for testing bandwidth, latency,
 ![Network Speed Test](https://img.shields.io/badge/platform-Windows-blue)
 ![.NET](https://img.shields.io/badge/.NET-6.0+-purple)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub stars](https://img.shields.io/github/stars/prodirt-llc/NetworkSpeedTest)
+![GitHub forks](https://img.shields.io/github/forks/prodirt-llc/NetworkSpeedTest)
+![GitHub issues](https://img.shields.io/github/issues/prodirt-llc/NetworkSpeedTest)
+![GitHub license](https://img.shields.io/github/license/prodirt-llc/NetworkSpeedTest)
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
 
 ## Features
 
