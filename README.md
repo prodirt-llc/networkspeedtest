@@ -40,7 +40,12 @@ A professional WPF-based network diagnostic tool for testing bandwidth, latency,
 
 ## Screenshots
 
-### Main Interface, client Mode
+### Server Mode
+<p align="center">
+  <img src="Assets/Server.png" alt="Network Speed Test Interface" width="800">
+</p>
+
+### Client Mode
 <p align="center">
   <img src="Assets/ClientMode.png" alt="Network Speed Test Interface" width="800">
 </p>
