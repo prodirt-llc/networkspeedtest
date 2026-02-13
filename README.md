@@ -38,6 +38,28 @@ A professional WPF-based network diagnostic tool for testing bandwidth, latency,
 - **Switch CPU issues** - Identify forwarding plane problems
 - **Customer proof** - Professional reports showing network performance
 
+## Screenshots
+
+### Main Interface, client Mode
+<p align="center">
+  <img src="Assets/ClientMode.png" alt="Network Speed Test Interface" width="800">
+</p>
+
+### Latency Test
+<p align="center">
+  <img src="Assets/Latency.png" alt="Real-time Speed Test" width="700">
+</p>
+
+### Professional HTML Report
+<p align="center">
+  <img src="Assets/Report.png" alt="HTML Report with Graphs" width="800">
+</p>
+
+### Sample Report
+<p align="center">
+  <a href="NetworkDiagnostics.html">NetworkDiagnostics.html</a>
+</p>
+
 ## Installation
 
 ### Download Release (Recommended)
