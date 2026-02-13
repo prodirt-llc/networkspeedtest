@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0099cc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.2" />
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="128" cy="128" r="120" fill="url(#bgGradient)" stroke="#00d4ff" stroke-width="3"/>
+  
+  <!-- Network nodes (connected circles) -->
+  <g id="network">
+    <!-- Left node -->
+    <circle cx="70" cy="128" r="18" fill="url(#blueGradient)" stroke="#00d4ff" stroke-width="2"/>
+    <circle cx="70" cy="128" r="10" fill="#1a1a2e" opacity="0.6"/>
+    
+    <!-- Right node -->
+    <circle cx="186" cy="128" r="18" fill="url(#blueGradient)" stroke="#00d4ff" stroke-width="2"/>
+    <circle cx="186" cy="128" r="10" fill="#1a1a2e" opacity="0.6"/>
+    
+    <!-- Top node -->
+    <circle cx="128" cy="70" r="16" fill="url(#blueGradient)" stroke="#00d4ff" stroke-width="2"/>
+    <circle cx="128" cy="70" r="8" fill="#1a1a2e" opacity="0.6"/>
+    
+    <!-- Bottom node -->
+    <circle cx="128" cy="186" r="16" fill="url(#blueGradient)" stroke="#00d4ff" stroke-width="2"/>
+    <circle cx="128" cy="186" r="8" fill="#1a1a2e" opacity="0.6"/>
+    
+    <!-- Center hub -->
+    <circle cx="128" cy="128" r="24" fill="url(#blueGradient)" stroke="#00d4ff" stroke-width="3"/>
+    <circle cx="128" cy="128" r="14" fill="#1a1a2e" opacity="0.7"/>
+  </g>
+  
+  <!-- Connection lines -->
+  <g id="connections" stroke="#00d4ff" stroke-width="3" opacity="0.6">
+    <line x1="88" y1="128" x2="104" y2="128"/>
+    <line x1="152" y1="128" x2="168" y2="128"/>
+    <line x1="128" y1="88" x2="128" y2="104"/>
+    <line x1="128" y1="152" x2="128" y2="168"/>
+  </g>
+  
+  <!-- Speed lines (motion effect) -->
+  <g id="speedLines" stroke="url(#accentGradient)" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <!-- Horizontal speed lines -->
+    <line x1="30" y1="110" x2="80" y2="110"/>
+    <line x1="40" y1="128" x2="90" y2="128"/>
+    <line x1="30" y1="146" x2="80" y2="146"/>
+    
+    <line x1="176" y1="110" x2="226" y2="110"/>
+    <line x1="166" y1="128" x2="216" y2="128"/>
+    <line x1="176" y1="146" x2="226" y2="146"/>
+  </g>
+  
+  <!-- Data flow particles (small dots suggesting movement) -->
+  <g id="dataFlow" fill="#00d4ff" opacity="0.7">
+    <circle cx="95" cy="128" r="3"/>
+    <circle cx="115" cy="128" r="3"/>
+    <circle cx="141" cy="128" r="3"/>
+    <circle cx="161" cy="128" r="3"/>
+    
+    <circle cx="128" cy="95" r="2.5"/>
+    <circle cx="128" cy="115" r="2.5"/>
+    <circle cx="128" cy="141" r="2.5"/>
+    <circle cx="128" cy="161" r="2.5"/>
+  </g>
+  
+  <!-- Pulse effect rings -->
+  <g id="pulseRings" fill="none" stroke="#00d4ff" opacity="0.3">
+    <circle cx="128" cy="128" r="35" stroke-width="2"/>
+    <circle cx="128" cy="128" r="45" stroke-width="1.5"/>
+  </g>
+</svg>
