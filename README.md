@@ -1,4 +1,7 @@
 # Network Speed Test Tool
+<p align="center">
+  <img src="NetworkSpeedTest_Icon.svg" alt="Network Speed Test Icon" width="128" height="128">
+</p>
 
 A professional WPF-based network diagnostic tool for testing bandwidth, latency, jitter, and detecting network asymmetry issues. Built for IT professionals and MSPs to quickly diagnose network performance problems.
 
